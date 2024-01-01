@@ -50,3 +50,4 @@ def app(data, x, y):
             feature_names=x.columns, class_names=['nockd', 'ckd']
         )
         st.graphviz_chart(dot_data)
+        st.set_option('deprecation.showPyplotGlobalUse', False)
